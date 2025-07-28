@@ -287,9 +287,6 @@ img{
     float: left;
 }
 
-@media screen {
-    
-}
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
 @media screen and (min-width: 600px) {
@@ -401,10 +398,11 @@ img{
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
-    /* img{
+    img{
         width: 300px;
         max-width: 300px;
-    } */
+    } 
+    
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
 
