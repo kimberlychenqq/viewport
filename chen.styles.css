@@ -1,5 +1,5 @@
 /* YOUR NAME GOES HERE */
-
+Kimberly Chen
 /* --------------- ADD CSS RESET TO THE FILE HERE --------------- */
 
 
@@ -33,7 +33,7 @@
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 @media (prefers-color-scheme: dark){
     body{
-        background-color: #222;
+        background-color: var(--dark-gray);
     }
 }
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
@@ -94,6 +94,7 @@ footer .icon{
 
 
 /* ----- HANDLE PREFERS REDUCED MOTION FOR THE ICON ANIMATIONS ----- */
+@media (prefers-reduced-motion: reduce){
 /* --------------- BEGIN USER PREFERS REDUCED MOTION QUERY --------------- */
     @-webkit-keyframes icon-animation {
         0% { font-variation-settings: "TIME" 1; }
@@ -101,6 +102,7 @@ footer .icon{
     @keyframes icon-animation {
         0% { font-variation-settings: "TIME" 1; }
     }
+}
 /* --------------- END USER PREFERS REDUCED MOTION QUERY --------------- */
 
 
@@ -151,7 +153,9 @@ img{
     float: left;
 }
 
-
+@media screen {
+    
+}
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
     /* header, footer{
